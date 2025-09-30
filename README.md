@@ -25,7 +25,7 @@ docker-compose.yml   # Docker Compose configuration
 ### Setup
 1. Clone this repository:
 ```   
-   git clone <repo-url>
+   git clone (https://github.com/Jutop/Fritzbox-WAN-traffic-Monitor-Ntopng-Docker-2025.git)
    cd "Fritzbox WAN traffic Monitor"
 ```  
 2. Build and start the container:
@@ -52,3 +52,4 @@ https://raw.githubusercontent.com/ntop/ntopng/dev/tools/fritzdump.sh
 ---
 
 For questions or issues, please open an issue in this repository.
+
