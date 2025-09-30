@@ -24,14 +24,14 @@ docker-compose.yml   # Docker Compose configuration
 
 ### Setup
 1. Clone this repository:
-   
+```   
    git clone <repo-url>
    cd "Fritzbox WAN traffic Monitor"
-  
+```  
 2. Build and start the container:
-   
-   docker-compose up --build
- 
+```   
+   docker compose up -d
+ ```
 
 ### Usage
 - The main script `fritzdump.sh` will run inside the container and collect WAN traffic data from your Fritzbox.
@@ -50,4 +50,5 @@ Forked from and created a DOCKER image with proper updates and flags to ntopng:l
 https://raw.githubusercontent.com/ntop/ntopng/dev/tools/fritzdump.sh
 
 ---
+
 For questions or issues, please open an issue in this repository.
