@@ -1,0 +1,21 @@
+services:
+  fritz-monitor:
+    build: ./fritz-dumper               # Builds the image from the fritz-dumper folder
+    container_name: fritz-monitor
+    restart: unless-stopped
+    ports:
+      - "3000:3000" # Exposes the ntopng web interface on port 3000
+    volumes:
+      - ntopng_data:/var/lib/ntopng      # Persists ntopng data
+      - ntopng_config:/etc/ntopng     # Persists ntopng configuration
+    networks:
+      - monitor-net
+
+# Defines the volumes for persistent data
+volumes:
+  ntopng_data:
+  ntopng_config:
+
+# Defines the network that allows containers to communicate by name
+networks:
+  monitor-net:
