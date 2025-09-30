@@ -7,6 +7,8 @@ This project provides a simple way to monitor WAN traffic from a Fritzbox router
 - Run traffic dump scripts in a containerized environment
 - Easy setup with Docker Compose
 
+![Alt text](ntop_dash.png)
+
 ## Project Structure
 ```
 fritz-dumper/
@@ -52,4 +54,5 @@ https://raw.githubusercontent.com/ntop/ntopng/dev/tools/fritzdump.sh
 ---
 
 For questions or issues, please open an issue in this repository.
+
 
