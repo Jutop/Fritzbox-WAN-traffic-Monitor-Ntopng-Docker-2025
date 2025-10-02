@@ -2,7 +2,7 @@
 
 This project provides a simple way to monitor WAN traffic from a Fritzbox router using Docker. It consists of a shell script that dumps traffic data and a Docker setup for easy deployment.
 
-NOTE : This may produce slows on the WAN speeds. I tested this with the FRITZ!Box 7530 AX and the NIC can't handle this without the bandwidth problem. This works for well for quick monitoring but is not production ready. However this may work on other Fritz!Boxes without problems but I have not tested any other. 
+NOTE : This may produce slow downs on the WAN speeds. I tested this with the FRITZ!Box 7530 AX and the NIC can't handle this without the bandwidth problem. This works for well for quick monitoring but is not production ready. However this may work on other Fritz!Boxes without problems but I have not tested any other. 
 
 ## Features
 - Collect WAN traffic data from Fritzbox
@@ -56,6 +56,7 @@ https://raw.githubusercontent.com/ntop/ntopng/dev/tools/fritzdump.sh
 ---
 
 For questions or issues, please open an issue in this repository.
+
 
 
 
